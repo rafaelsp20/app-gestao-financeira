@@ -1,0 +1,206 @@
+h3 {
+  color: rgb(46, 44, 44);
+  font-size: 23px;
+}
+
+body {
+  background-color: #c0c0c0;
+}
+
+
+.totais {
+  display: flex;
+  color: #4f4f4f;
+  margin-bottom: 25px;
+
+
+}
+
+.totais_receitas {
+  background-color: #faf5f5;
+  padding-left: 12px;
+  width: 25%;
+  height: 100px;
+  line-height: 40%;
+  border-radius: 13px;
+  margin-left: 2px;
+  margin-right: 15px;
+}
+.totais_receitas h4 {
+  color: orange;
+}
+
+.totais_despesas {
+  background-color: #faf5f5;
+  padding-left: 12px;
+  width: 25%;
+  height: 100px;
+  line-height: 40%;
+  border-radius: 13px;
+  margin-left: 2px;
+  margin-right: 15px;
+}
+
+.totais_despesas h4 {
+  color: red;
+}
+.totais_gerado {
+  background-color: #faf5f5;
+  width: 25%;
+  padding-left: 12px;
+  width: 25%;
+  height: 100px;
+  line-height: 40%;
+  border-radius: 13px;
+  margin-left: 2px;
+  margin-right: 15px;
+}
+
+.totais_gerado h4 {
+  color: blueviolet;
+}
+
+.h1 {
+  color: #0056b3;
+}
+
+/* Estilo dos formulario e tabela */
+/* Estilo da tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #4caf50;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Botões na tabela */
+table button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #f10c4d;
+  margin: auto;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+table button:hover {
+  background-color: #0056b3;
+}
+
+table button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Formulário */
+form {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #6a08f3; /* Azul vibrante */
+  color: white;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #0056b3; /* Azul mais escuro */
+  transform: scale(1.05); /* Leve aumento no tamanho */
+}
+
+button:active {
+  background-color: #00408a; /* Azul ainda mais escuro */
+  transform: scale(1); /* Volta ao tamanho original */
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Contorno azul claro */
+}
+
+.btn-pago {
+  background-color: #333;
+}
+
+.btn-pago:hover {
+  background-color: #45a049;
+}
